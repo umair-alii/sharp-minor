@@ -1,0 +1,80 @@
+.tutor-login-form {
+  padding-top: 100px;
+  padding-right: 15px;
+}
+
+.login-banner {
+  padding-top: 100px;
+  padding-left: 15px;
+}
+
+.tutor-login-form h3 {
+  color: #ff5768;
+}
+
+.tutor-login-form h1 {
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+.tutor-login-form input {
+  padding: 25px 15px;
+}
+
+.tutor-login-form input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.tutor-login-form input::placeholder {
+  color: #090909;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.remember-forgot-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forgor-password span,
+.remember-me {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button-wrapper {
+  display: flex;
+  margin-top: 30px;
+}
+
+.login-btn {
+  background: #ff5768 !important;
+  border: 1px solid #ff5768 !important;
+  padding: 15px;
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.register-btn {
+  background: rgb(255 87 104 / 0.1);
+  border: 1px solid rgb(255 87 104 / 0.1);
+  padding: 15px;
+  color: #ff5768;
+  font-size: 12px;
+}
+
+.register-btn:hover {
+  background: rgb(255 87 104 / 0.1);
+  border: 1px solid rgb(255 87 104 / 0.1);
+  padding: 15px;
+  color: #ff5768;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .tutor-login-form {
+    padding-top: 50px;
+  }
+}

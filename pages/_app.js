@@ -1,6 +1,10 @@
 import Head from "next/head";
 import React from "react";
-import styles from "../styles/header.css";
+import "../styles/header.css";
+import "../styles/tutor-login.css";
+import "../styles/tutor-information.css";
+import "../styles/footer.css";
+import "../styles/global.css";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,7 +15,11 @@ function MyApp({ Component, pageProps }) {
           type="text/css"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         />
-        <title>Youth and Family Services of Virginia YFSVA ASSET</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        ></link>
+        <title>Sharp Minor</title>
       </Head>
       <Component {...pageProps} />
     </React.Fragment>

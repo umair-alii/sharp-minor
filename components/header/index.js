@@ -4,15 +4,14 @@ import Nav from "react-bootstrap/Nav";
 
 const Header = (props) => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Navbar.Brand href="#home">
-        Sharp<span className="header-minor">Minor</span>
+        Sharp<span>Minor</span>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
+        <Nav className="ml-auto">
+          <Nav.Link href="#" className="nav-items">Home</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

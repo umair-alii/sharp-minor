@@ -1,0 +1,87 @@
+.upper-footer-wrapper {
+  background: #00a5e3;
+  padding: 60px 0px;
+  margin-top: 40px;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.message-icon {
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+}
+
+.call-icon {
+  padding: 33px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+}
+
+.contact-info h5,
+.contact-info h6 {
+  color: #fff;
+  font-size: 15px;
+}
+
+.middle-footer-wrapper {
+  background: #ff5768;
+}
+
+.footer-menu {
+  padding: 50px 0px;
+}
+
+.footer-menu ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.footer-menu li {
+  list-style: none;
+  font-size: 12px;
+  color: #fff;
+}
+
+.lower-footer {
+  background: #111111;
+}
+
+.copy-right {
+  padding: 35px;
+}
+
+.copy-right span {
+  color: #fff;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .login-banner {
+    padding-top: 50px;
+    padding-left: 0px;
+  }
+
+  .footer-menu ul {
+    display: block;
+  }
+
+  .footer-menu li {
+    margin-bottom: 5px;
+  }
+
+  .contact-wrapper {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: unset;
+    margin-left: 15px;
+  }
+
+  .contact-info {
+    margin-left: 30px;
+  }
+}

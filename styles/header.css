@@ -1,3 +1,14 @@
-.header-minor {
-  color: #232323;
+.navbar-brand {
+  color: #090909 !important;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.navbar-brand span {
+  color: #ff5768;
+}
+
+.nav-link {
+  color: #1e1e1e !important;
+  font-weight: 600;
 }

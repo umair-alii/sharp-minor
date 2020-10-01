@@ -1,0 +1,29 @@
+.tutor-information-wrapper {
+  background: #fff;
+  padding: 60px 30px;
+  margin-top: 30px;
+  min-height: 220px;
+}
+
+.tutor-safe {
+  padding-left: 20px;
+  border-left: 4px solid #ff5768;
+}
+
+.tutor-safe h3, .data-secure h3, .contact-us h3 {
+  font-size: 16px;
+}
+
+.tutor-safe p, .data-secure p, .contact-us p {
+    font-size: 12px;
+}
+
+.data-secure {
+  padding-left: 20px;
+  border-left: 4px solid #33aa83;
+}
+
+.contact-us {
+  padding-left: 20px;
+  border-left: 4px solid #00a5e3;
+}
