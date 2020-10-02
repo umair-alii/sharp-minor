@@ -9,18 +9,24 @@ const TutorLogin = (props) => {
           <h1>Login As A Tutor</h1>
           <form>
             <div className="form-group">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="   User ID (Tutor's ID) *"
-              />
+              <div className="login-inputs">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="User ID (Tutor's ID) *"
+                />
+              </div>
             </div>
             <div className="form-group">
-              <input
-                type="password"
-                className="form-control"
-                placeholder="   Password *"
-              />
+              <div className="login-inputs">
+                <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                <input
+                  type="password"
+                  className="form-control"
+                  placeholder="Password *"
+                />
+              </div>
             </div>
             <div className="remember-forgot-wrapper">
               <div className="form-check">

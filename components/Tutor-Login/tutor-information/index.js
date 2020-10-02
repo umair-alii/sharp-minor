@@ -5,6 +5,9 @@ const TutorInformation = (props) => {
     <div className="row">
       <div className="col-md-4">
         <div className="tutor-information-wrapper">
+          <div className="contact-us-icon">
+            <i class="fa fa-undo" aria-hidden="true"></i>
+          </div>
           <div className="tutor-safe">
             <h3>100% Tutor's Safe</h3>
             <p>
@@ -16,6 +19,9 @@ const TutorInformation = (props) => {
       </div>
       <div className="col-md-4">
         <div className="tutor-information-wrapper">
+          <div className="contact-us-icon">
+            <i class="fa fa-undo" aria-hidden="true"></i>
+          </div>
           <div className="data-secure">
             <h3>100% Data Secure</h3>
             <p>
@@ -27,6 +33,9 @@ const TutorInformation = (props) => {
       </div>
       <div className="col-md-4">
         <div className="tutor-information-wrapper">
+          <div className="contact-us-icon">
+            <i class="fa fa-undo" aria-hidden="true"></i>
+          </div>
           <div className="contact-us">
             <h3>Contact Us 24X7</h3>
             <p>

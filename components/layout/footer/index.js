@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import FontAwesome from "react-fontawesome";
+// import faStyles from "font-awesome/css/font-awesome.css";
 
 const Footer = (props) => {
   return (
@@ -9,11 +11,7 @@ const Footer = (props) => {
             <div className="col-md-4">
               <div className="contact-wrapper">
                 <div className="message-icon">
-                  <img
-                    src="../../static/assets/imgs/message-icon.png"
-                    alt="message"
-                    className="img-fluid"
-                  />
+                  <i class="fa fa-envelope"></i>
                 </div>
                 <div className="contact-info">
                   <h6>Write to us</h6>
@@ -23,7 +21,9 @@ const Footer = (props) => {
             </div>
             <div className="col-md-4">
               <div className="contact-wrapper">
-                <div className="call-icon"></div>
+                <div className="phone-icon">
+                  <i class="fa fa-phone"></i>
+                </div>
                 <div className="contact-info">
                   <h6>Call Us</h6>
                   <h5>1800 000 2233</h5>
@@ -32,7 +32,16 @@ const Footer = (props) => {
             </div>
             <div className="col-md-4">
               <div className="contact-wrapper">
-                <div className="call-icon"></div>
+                <div className="call-icon">
+                  <i class="fa fa-volume-control-phone"></i>
+                </div>
+                <div className="contact-info">
+                  <h6>Want Us To Call You?</h6>
+                  <h5>
+                    Click Here{" "}
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </h5>
+                </div>
               </div>
             </div>
           </div>

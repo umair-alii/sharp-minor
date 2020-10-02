@@ -1,8 +1,14 @@
 .tutor-information-wrapper {
   background: #fff;
-  padding: 60px 30px;
+  padding: 50px 30px;
   margin-top: 30px;
-  min-height: 220px;
+  min-height: 260px;
+}
+
+i.fa.fa-undo {
+  color: #00a5e3;
+  padding-bottom: 20px;
+  padding-left: 5px;
 }
 
 .tutor-safe {
@@ -10,12 +16,16 @@
   border-left: 4px solid #ff5768;
 }
 
-.tutor-safe h3, .data-secure h3, .contact-us h3 {
+.tutor-safe h3,
+.data-secure h3,
+.contact-us h3 {
   font-size: 16px;
 }
 
-.tutor-safe p, .data-secure p, .contact-us p {
-    font-size: 12px;
+.tutor-safe p,
+.data-secure p,
+.contact-us p {
+  font-size: 12px;
 }
 
 .data-secure {

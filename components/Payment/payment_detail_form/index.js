@@ -11,27 +11,32 @@ const PaymentDeatilForm = (props) => {
           <h6>Basic Information</h6>
           <form>
             <div className="form-group">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Kids Name *"
-              />
+              <div className="login-inputs">
+                <i className="fa fa-grav" aria-hidden="true"></i>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Kids Name *"
+                />
+              </div>
             </div>
             <div className="form-group">
-              <input
-                type="email"
-                className="form-control"
-                placeholder="Parents Email *"
-              />
+              <div className="login-inputs">
+                <i className="fa fa-envelope" aria-hidden="true"></i>
+                <input
+                  type="email"
+                  className="form-control"
+                  placeholder="Parents Email *"
+                />
+              </div>
             </div>
-            <div className="row">
-              <div className="col-md-4">
+            <div className="form-group">
+              <div className="payment-phone">
                 <PhoneInput
-                  onlyCountries={["gr", "fr", "us"]}
-                  areaCodes={{
-                    gr: ["2694", "2647"],
-                    fr: ["369", "463"],
-                    us: ["300"],
+                  inputProps={{
+                    name: "phone",
+                    required: true,
+                    autoFocus: true,
                   }}
                 />
               </div>
@@ -40,17 +45,17 @@ const PaymentDeatilForm = (props) => {
             <div className="packges-wrapper">
               <ul>
                 <li>Monthly Payment For 8 Classes</li>
-                <li>7000</li>
+                <li>£ 7000</li>
               </ul>
               <ul>
                 <li>
                   Special discount applied <span>Change</span>
                 </li>
-                <li>1000</li>
+                <li>£ 1000</li>
               </ul>
               <ul>
                 <li>Order Total / Month</li>
-                <li>6000</li>
+                <li>£ 6000</li>
               </ul>
             </div>
             <h6>Charges will be auto deducted every month</h6>
@@ -64,6 +69,7 @@ const PaymentDeatilForm = (props) => {
                 src="../../static/assets/imgs/visa-card.png"
                 alt="visa"
                 className="img-fluid"
+                width="50"
               />
             </div>
           </div>
@@ -73,6 +79,7 @@ const PaymentDeatilForm = (props) => {
                 src="../../static/assets/imgs/master-card.png"
                 alt="visa"
                 className="img-fluid"
+                width="70"
               />
             </div>
           </div>
@@ -82,6 +89,7 @@ const PaymentDeatilForm = (props) => {
                 src="../../static/assets/imgs/net-banking.png"
                 alt="visa"
                 className="img-fluid"
+                width="70"
               />
             </div>
           </div>
@@ -91,13 +99,14 @@ const PaymentDeatilForm = (props) => {
                 src="../../static/assets/imgs/upi.png"
                 alt="visa"
                 className="img-fluid"
+                width="60"
               />
             </div>
           </div>
         </div>
         <div className="buttons-wrapper">
           <button type="button" className="btn btn-primary total-btn">
-            Your Total  6000 / Month
+            Your Total £ 6000 / Month
           </button>
 
           <button type="button" className="btn btn-primary pay-securily-btn">
@@ -116,6 +125,9 @@ const PaymentDeatilForm = (props) => {
         <div className="row">
           <div className="col-md-6">
             <div className="secure-payment-refund-policy">
+              <div className="contact-us-icon">
+                <i className="fa fa-undo" aria-hidden="true"></i>
+              </div>
               <div className="secure-payment-desccription">
                 <h3>100% Secure payment</h3>
                 <p>
@@ -127,6 +139,9 @@ const PaymentDeatilForm = (props) => {
           </div>
           <div className="col-md-6">
             <div className="secure-payment-refund-policy">
+              <div className="contact-us-icon">
+                <i className="fa fa-undo" aria-hidden="true"></i>
+              </div>
               <div className="refund-policy-desccription">
                 <h3>Refund Policy</h3>
                 <p>

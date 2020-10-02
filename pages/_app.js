@@ -7,6 +7,7 @@ import "../styles/footer.css";
 import "../styles/payment-detail.css";
 import "../styles/global.css";
 import "react-phone-input-2/lib/style.css";
+import FontAwesome from "react-fontawesome";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -21,6 +22,11 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         ></link>
+        <link
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"
+        />
+
         <title>Sharp Minor</title>
       </Head>
       <Component {...pageProps} />

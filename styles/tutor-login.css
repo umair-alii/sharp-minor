@@ -33,6 +33,24 @@
   font-weight: 500;
 }
 
+.login-inputs {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 2px 25px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.login-inputs i {
+  color: #090909;
+  font-size: 12px !important;
+}
+
+.login-inputs input {
+  border: none !important;
+}
+
 .remember-forgot-wrapper {
   display: flex;
   justify-content: space-between;
@@ -76,5 +94,9 @@
 @media screen and (max-width: 767px) {
   .tutor-login-form {
     padding-top: 50px;
+  }
+
+  .login-banner {
+    display: none;
   }
 }
