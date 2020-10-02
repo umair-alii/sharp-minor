@@ -4,7 +4,9 @@ import "../styles/header.css";
 import "../styles/tutor-login.css";
 import "../styles/tutor-information.css";
 import "../styles/footer.css";
+import "../styles/payment-detail.css";
 import "../styles/global.css";
+import "react-phone-input-2/lib/style.css";
 
 function MyApp({ Component, pageProps }) {
   return (
