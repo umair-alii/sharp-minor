@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
+import React from "react";
 
-const TutorInformation = (props) => {
+const TutorInformation = () => {
   return (
     <div className="row">
       <div className="col-md-4">

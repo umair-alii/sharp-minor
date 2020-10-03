@@ -1,13 +1,20 @@
 import Head from "next/head";
 import React from "react";
+
+// import styles
 import "../styles/header.css";
 import "../styles/tutor-login.css";
 import "../styles/tutor-information.css";
 import "../styles/footer.css";
 import "../styles/payment-detail.css";
 import "../styles/global.css";
+
+// import react phone package css
 import "react-phone-input-2/lib/style.css";
-import FontAwesome from "react-fontawesome";
+
+// import components
+import Header from "../components/layout/header";
+import Footer from "../components/layout/footer";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -29,7 +36,11 @@ function MyApp({ Component, pageProps }) {
 
         <title>Sharp Minor</title>
       </Head>
-      <Component {...pageProps} />
+      <div className="container">
+        <Header />
+        <Component {...pageProps} />
+      </div>
+      <Footer />
     </React.Fragment>
   );
 }

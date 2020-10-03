@@ -1,8 +1,6 @@
 import React, { Fragment } from "react";
-import FontAwesome from "react-fontawesome";
-// import faStyles from "font-awesome/css/font-awesome.css";
 
-const Footer = (props) => {
+const Footer = () => {
   return (
     <Fragment>
       <section className="upper-footer-wrapper">

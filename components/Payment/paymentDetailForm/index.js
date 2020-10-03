@@ -1,7 +1,7 @@
-import React, { Fragment } from "react";
+import React from "react";
 import PhoneInput from "react-phone-input-2";
 
-const PaymentDeatilForm = (props) => {
+const PaymentDetailForm = () => {
   return (
     <div className="row">
       <div className="col-md-6">
@@ -157,4 +157,4 @@ const PaymentDeatilForm = (props) => {
   );
 };
 
-export default PaymentDeatilForm;
+export default PaymentDetailForm;

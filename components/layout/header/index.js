@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-const Header = (props) => {
+const Header = () => {
   return (
     <Navbar expand="lg">
       <Navbar.Brand href="#home">
@@ -11,7 +11,9 @@ const Header = (props) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="#" className="nav-items">Home</Nav.Link>
+          <Nav.Link href="#" className="nav-items">
+            Home
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
