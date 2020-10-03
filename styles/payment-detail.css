@@ -1,20 +1,20 @@
 .payment-detail-form {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-right: 15px;
 }
 
 .payment-detail-form-banner {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 15px;
 }
 
 .payment-detail-form h3 {
   color: #ff5768;
+  font-weight: 700;
 }
 
 .payment-detail-form h1 {
   font-weight: 600;
-  margin-top: 30px;
   margin-bottom: 45px;
 }
 
@@ -29,15 +29,15 @@
   font-weight: 600;
 }
 
-.packges-wrapper {
+.packages-wrapper {
   background: #fff;
   border: 1px solid #ced4da;
   border-radius: 5px;
   padding: 25px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 
-.packges-wrapper ul {
+.packages-wrapper ul {
   list-style: none;
   border-bottom: 1px solid #ced4da;
   display: flex;
@@ -46,13 +46,13 @@
   padding-bottom: 10px;
 }
 
-.packges-wrapper li {
+.packages-wrapper li {
   font-size: 12px;
   color: #090909;
   font-weight: 600;
 }
 
-.packges-wrapper span {
+.packages-wrapper span {
   color: #ff5768;
 }
 
@@ -93,6 +93,7 @@
   border: 1px solid #33aa83 !important;
   padding: 12px;
   font-size: 12px;
+  font-weight: 600;
 }
 
 .pay-securily-btn {
@@ -100,6 +101,7 @@
   border: 1px solid #ff5768 !important;
   padding: 12px;
   font-size: 12px;
+  font-weight: 600;
 }
 
 .buttons-wrapper button {
@@ -111,7 +113,6 @@
   background: #fff;
   border-radius: 8px;
   padding: 40px 20px;
-  margin-top: 40px;
   min-height: 260px;
 }
 
@@ -148,6 +149,18 @@ i.fa.fa-undo {
   color: #00a5e3;
   padding-bottom: 20px;
   padding-left: 5px;
+}
+
+.payment-phone .flag-dropdown {
+  background: #fff !important;
+}
+
+.wrapper-payment-options {
+  margin-top: 20px;
+}
+
+.wrapper-payment-options p {
+  font-weight: 700;
 }
 
 @media screen and (max-width: 767px) {
