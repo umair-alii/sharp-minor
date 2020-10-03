@@ -37,3 +37,10 @@ i.fa.fa-undo {
   padding-left: 20px;
   border-left: 4px solid #00a5e3;
 }
+
+@media screen and (max-width: 767px) {
+  .tutor-information-wrapper {
+    padding: 30px;
+    min-height: auto;
+  }
+}

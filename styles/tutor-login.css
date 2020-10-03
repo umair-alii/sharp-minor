@@ -1,15 +1,16 @@
 .tutor-login-form {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-right: 15px;
 }
 
 .login-banner {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 15px;
 }
 
 .tutor-login-form h3 {
   color: #ff5768;
+  font-weight: 700;
 }
 
 .tutor-login-form h1 {
@@ -28,7 +29,7 @@
 }
 
 .tutor-login-form input::placeholder {
-  color: #090909;
+  color: #242422;
   opacity: 1;
   font-weight: 500;
 }
@@ -38,7 +39,7 @@
   align-items: center;
   background: white;
   padding: 2px 25px;
-  border: 1px solid #ced4da;
+  border: 1px solid #f5f5f5;
   border-radius: 0.25rem;
 }
 
@@ -49,6 +50,7 @@
 
 .login-inputs input {
   border: none !important;
+  font-size: 14px;
 }
 
 .remember-forgot-wrapper {
@@ -63,7 +65,6 @@
 }
 
 .button-wrapper {
-  display: flex;
   margin-top: 30px;
 }
 
@@ -98,5 +99,13 @@
 
   .login-banner {
     display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .login-btn,
+  .register-btn {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
