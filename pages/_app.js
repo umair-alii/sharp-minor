@@ -7,6 +7,7 @@ import "../styles/tutor-login.css";
 import "../styles/tutor-information.css";
 import "../styles/footer.css";
 import "../styles/payment-detail.css";
+import "../styles/mentor-information.css";
 import "../styles/global.css";
 
 // import react phone package css

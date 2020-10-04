@@ -1,0 +1,291 @@
+.mentor-detail-form {
+  padding-top: 50px;
+  padding-right: 15px;
+}
+
+.mentor-detail-form-banner {
+  padding-top: 50px;
+  padding-left: 15px;
+}
+
+.mentor-detail-form h3 {
+  color: #33aa83;
+  font-weight: 700;
+}
+
+.mentor-detail-form h1 {
+  font-weight: 600;
+  margin-bottom: 45px;
+}
+
+.mentor-detail-form h4 {
+  margin: 50px 0px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.packages-wrapper {
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 25px;
+  margin-bottom: 15px;
+}
+
+.packages-wrapper ul {
+  list-style: none;
+  border-bottom: 1px solid #ced4da;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+
+.packages-wrapper li {
+  font-size: 12px;
+  color: #090909;
+  font-weight: 600;
+}
+
+.packages-wrapper span {
+  color: #ff5768;
+}
+
+.payment-card-icon {
+  background: #fff;
+  padding: 18px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.mentor-detail-form input {
+  padding: 25px 15px;
+}
+
+.mentor-detail-form input:focus,
+select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.mentor-detail-form input::placeholder {
+  color: #090909;
+  opacity: 1;
+  font-weight: 500;
+}
+
+select.form-control.custom-select-lg {
+  color: #090909;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.mentor-phone input {
+  width: 100% !important;
+}
+
+.login-inputs i {
+  color: #090909;
+  font-size: 12px !important;
+}
+
+/* toggle button */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 34px;
+  margin-top: 6px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #33aa83;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #33aa83;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*end*/
+
+.internet-speed-btn {
+  background: #33aa83 !important;
+  border: 1px solid #33aa83 !important;
+  padding: 15px 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+i.fa.fa-eye {
+  font-size: 16px !important;
+  margin-right: 5px;
+}
+
+.file-wrapper {
+  padding: 35px 20px;
+  background: #fff;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-align: center;
+  min-height: 165px;
+}
+
+.cv-icon {
+  text-align: center;
+}
+
+.file-wrapper i {
+  color: #090909;
+  font-size: 20px !important;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.upload-your-cv,
+.upload-video {
+  text-align: center;
+}
+
+.upload-video {
+  padding-top: 10px;
+}
+
+.upload-your-cv span,
+.upload-video span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #090909;
+}
+
+.video-length {
+  color: #a5a5a5 !important;
+  font-size: 10px !important;
+}
+
+.mentor-submit-btn {
+  margin-top: 15px;
+}
+
+.mentor-btn {
+  background: #ff5768 !important;
+  border: 1px solid #ff5768 !important;
+  padding: 15px 45px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.buttons-wrapper button {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.mentor-reponsibilities-wrapper {
+  display: flex;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.remuneration-description h6,
+.work-from-home-description h6,
+.build-future-description h6,
+.life-balance-description h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #090909;
+}
+
+.remuneration-description p,
+.work-from-home-description p,
+.build-future-description p,
+.life-balance-description p {
+  color: #090909;
+  font-size: 12px;
+}
+
+.remuneration-description {
+  border-left: 3px solid #ff5768;
+  padding-left: 15px;
+  margin-left: 10px;
+}
+
+.work-from-home-description {
+  border-left: 3px solid #33aa83;
+  padding-left: 15px;
+  margin-left: 10px;
+}
+
+.build-future-description {
+  border-left: 3px solid #00a5e3;
+  padding-left: 15px;
+  margin-left: 10px;
+}
+
+.life-balance-description {
+  border-left: 3px solid #ff8000;
+  padding-left: 15px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .mentor-reponsibilities-wrapper {
+    margin-top: 35px;
+  }
+
+  .mentor-submit-btn {
+    text-align: center;
+  }
+
+  .mentor-detail-form-banner {
+    display: none;
+  }
+}

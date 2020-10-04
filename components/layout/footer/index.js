@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="col-md-4">
               <div className="contact-wrapper">
                 <div className="message-icon">
-                  <i class="fa fa-envelope"></i>
+                  <i className="fa fa-envelope"></i>
                 </div>
                 <div className="contact-info">
                   <h6>Write to us</h6>
@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="col-md-4">
               <div className="contact-wrapper">
                 <div className="phone-icon">
-                  <i class="fa fa-phone"></i>
+                  <i className="fa fa-phone"></i>
                 </div>
                 <div className="contact-info">
                   <h6>Call Us</h6>
@@ -31,13 +31,13 @@ const Footer = () => {
             <div className="col-md-4">
               <div className="contact-wrapper">
                 <div className="call-icon">
-                  <i class="fa fa-volume-control-phone"></i>
+                  <i className="fa fa-volume-control-phone"></i>
                 </div>
                 <div className="contact-info">
                   <h6>Want Us To Call You?</h6>
                   <h5>
                     Click Here{" "}
-                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    <i className="fa fa-arrow-right" aria-hidden="true"></i>
                   </h5>
                 </div>
               </div>
