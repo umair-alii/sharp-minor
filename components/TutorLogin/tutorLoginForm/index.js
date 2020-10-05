@@ -35,7 +35,7 @@ const TutorLogin = (props) => {
                   className="form-check-label remember-me"
                   htmlFor="defaultCheck1"
                 >
-                  Remember meeeee
+                  Remember only
                 </label>
               </div>
               <div className="forgor-password">
