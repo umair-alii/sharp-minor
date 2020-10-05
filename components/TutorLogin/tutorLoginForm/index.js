@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Form } from "react-bootstrap";
 
 const TutorLogin = (props) => {
   return (
@@ -29,7 +30,7 @@ const TutorLogin = (props) => {
               </div>
             </div>
             <div className="remember-forgot-wrapper">
-              <div className="form-check">
+              {/* <div className="form-check">
                 <input className="form-check-input" type="checkbox" value="" />
 
                 <label
@@ -38,7 +39,10 @@ const TutorLogin = (props) => {
                 >
                   Remember me
                 </label>
-              </div>
+              </div> */}
+              <Form.Group controlId="formBasicCheckbox">
+                <Form.Check type="checkbox" label="Check me out" />
+              </Form.Group>
               <div className="forgor-password">
                 <span>Forgot Password</span>
               </div>
