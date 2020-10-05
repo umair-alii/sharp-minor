@@ -104,8 +104,8 @@
   }
 
   input.form-check-input {
-    width: 10px;
-    height: 15px;
+    width: 5px !important;
+    height: 5px !important;
   }
 }
 
@@ -117,7 +117,7 @@
   }
 
   input.form-check-input {
-    width: 10px;
-    height: 15px;
+    width: 5px !important;
+    height: 5px !important;
   }
 }
