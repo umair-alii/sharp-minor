@@ -198,7 +198,7 @@ const MentorInformation = () => {
                   <img
                     src="../../static/assets/imgs/home.png"
                     alt="banner"
-                    className="img-fluid"
+                    className="img-fluid remu-img"
                     width="105"
                   />
                 </div>
@@ -217,7 +217,7 @@ const MentorInformation = () => {
                   <img
                     src="../../static/assets/imgs/future.png"
                     alt="banner"
-                    className="img-fluid"
+                    className="img-fluid remu-img"
                     width="125"
                   />
                 </div>
@@ -236,7 +236,7 @@ const MentorInformation = () => {
                   <img
                     src="../../static/assets/imgs/balance.png"
                     alt="banner"
-                    className="img-fluid"
+                    className="img-fluid remu-img"
                     width="135"
                   />
                 </div>

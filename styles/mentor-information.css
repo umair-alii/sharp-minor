@@ -236,8 +236,6 @@ i.fa.fa-arrow-down {
 
 .mentor-responsibilities-wrapper {
   display: flex;
-  padding-left: 30px;
-  padding-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -287,7 +285,7 @@ select.form-control.custom-select-lg:focus {
 }
 
 @media screen and (max-width: 767px) {
-  .mentor-responsibilites-wrapper {
+  .mentor-responsibilities-wrapper {
     margin-top: 35px;
   }
 
@@ -300,12 +298,12 @@ select.form-control.custom-select-lg:focus {
     display: none;
   }
 
-  .remu-img {
-    width: 141px !important;
-  }
-
   .mentor-responsibilities-wrapper {
     padding-top: 0px;
     margin-top: 25px;
+  }
+
+  .remu-img {
+    display: none !important;
   }
 }
