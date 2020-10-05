@@ -102,6 +102,10 @@
   .login-banner {
     display: none;
   }
+
+  input#formBasicCheckbox {
+    padding: 0px !important;
+  }
 }
 
 @media screen and (max-width: 425px) {

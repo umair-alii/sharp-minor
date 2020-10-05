@@ -41,7 +41,7 @@ const TutorLogin = (props) => {
                 </label>
               </div> */}
               <Form.Group controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
+                <Form.Check type="checkbox" label="Remember Me" />
               </Form.Group>
               <div className="forgor-password">
                 <span>Forgot Password</span>
