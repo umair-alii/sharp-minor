@@ -102,11 +102,6 @@
   .login-banner {
     display: none;
   }
-
-  input.form-check-input {
-    width: 0px;
-    height: 0px;
-  }
 }
 
 @media screen and (max-width: 425px) {
