@@ -29,13 +29,14 @@ const TutorLogin = (props) => {
               </div>
             </div>
             <div className="remember-forgot-wrapper">
-              <div className="form-group">
+              <div className="form-check">
                 <input className="form-check-input" type="checkbox" value="" />
+
                 <label
                   className="form-check-label remember-me"
                   htmlFor="defaultCheck1"
                 >
-                  Remember only
+                  Remember mekajh
                 </label>
               </div>
               <div className="forgor-password">

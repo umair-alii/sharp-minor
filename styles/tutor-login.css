@@ -94,20 +94,6 @@
   font-size: 12px;
 }
 
-input.form-check-input {
-  margin-left: 0px !important;
-}
-
-label.form-check-label.remember-me {
-  padding-left: 25px;
-}
-
-.gdlr-core-input-wrap.gdlr-core-large
-  input:not([type="button"]):not([type="submit"]):not([type="file"]) {
-  /* padding: 20px 22px; */
-  padding: 0;
-}
-
 @media screen and (max-width: 767px) {
   .tutor-login-form {
     padding-top: 50px;
@@ -116,6 +102,11 @@ label.form-check-label.remember-me {
   .login-banner {
     display: none;
   }
+
+  input.form-check-input {
+    width: 10px;
+    height: 15px;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -123,5 +114,10 @@ label.form-check-label.remember-me {
   .register-btn {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  input.form-check-input {
+    width: 10px;
+    height: 15px;
   }
 }
