@@ -1,6 +1,5 @@
 .mentor-detail-form {
   padding-top: 50px;
-  padding-right: 15px;
 }
 
 .mentor-detail-form-banner {
@@ -9,13 +8,14 @@
 }
 
 .mentor-detail-form h3 {
-  color: #33aa83;
+  color: #8dd7bf;
   font-weight: 700;
 }
 
 .mentor-detail-form h1 {
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 45px;
+  font-size: 36px;
 }
 
 .mentor-detail-form h4 {
@@ -61,6 +61,7 @@
 
 .mentor-detail-form input {
   padding: 25px 15px;
+  font-size: 12px;
 }
 
 .mentor-detail-form input:focus,
@@ -228,7 +229,7 @@ input[type="file"] {
   width: 100%;
 }
 
-.mentor-reponsibilities-wrapper {
+.mentor-responsibilities-wrapper {
   display: flex;
   padding-left: 30px;
   padding-top: 10px;
@@ -277,7 +278,7 @@ input[type="file"] {
 }
 
 @media screen and (max-width: 767px) {
-  .mentor-reponsibilities-wrapper {
+  .mentor-responsibilites-wrapper {
     margin-top: 35px;
   }
 

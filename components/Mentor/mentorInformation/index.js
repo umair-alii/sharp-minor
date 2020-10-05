@@ -5,7 +5,7 @@ const MentorInformation = () => {
   return (
     <Fragment>
       <div className="row">
-        <div className="col-md-5">
+        <div className="col-md-6">
           <div className="mentor-detail-form">
             <h3>Be A Mentor</h3>
             <h1>Tell Us About Yourself</h1>
@@ -85,7 +85,7 @@ const MentorInformation = () => {
             </form>
           </div>
         </div>
-        <div className="col-md-7">
+        <div className="col-md-6">
           <div className="mentor-detail-form-banner">
             <img
               src="../../static/assets/imgs/login-banner.png"
@@ -94,7 +94,7 @@ const MentorInformation = () => {
             />
           </div>
         </div>
-        <div className="col-md-5">
+        <div className="col-md-6">
           <div className="buttons-wrapper">
             <button
               type="button"
@@ -156,10 +156,10 @@ const MentorInformation = () => {
             </button>
           </div>
         </div>
-        <div className="col-md-7">
+        <div className="col-md-6">
           <div className="row">
             <div className="col-md-6">
-              <div className="mentor-reponsibilities-wrapper">
+              <div className="mentor-responsibilities-wrapper">
                 <div className="best-remuneration-icon">
                   <img
                     src="../../static/assets/imgs/remuneration.png"
@@ -178,8 +178,8 @@ const MentorInformation = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="mentor-reponsibilities-wrapper">
-                <div className="mentor-reponsibilities-icons">
+              <div className="mentor-responsibilties-wrapper">
+                <div className="mentor-responsibilties-icons">
                   <img
                     src="../../static/assets/imgs/home.png"
                     alt="banner"
@@ -197,8 +197,8 @@ const MentorInformation = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="mentor-reponsibilities-wrapper">
-                <div className="mentor-reponsibilities-icons">
+              <div className="mentor-responsibilties-wrapper">
+                <div className="mentor-responsibilties-icons">
                   <img
                     src="../../static/assets/imgs/future.png"
                     alt="banner"
@@ -216,8 +216,8 @@ const MentorInformation = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="mentor-reponsibilities-wrapper">
-                <div className="mentor-reponsibilities-icons">
+              <div className="mentor-responsibilties-wrapper">
+                <div className="mentor-responsibilties-icons">
                   <img
                     src="../../static/assets/imgs/balance.png"
                     alt="banner"

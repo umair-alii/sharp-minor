@@ -5,7 +5,6 @@
 
 .payment-detail-form-banner {
   padding-top: 50px;
-  padding-left: 15px;
 }
 
 .payment-detail-form h3 {
@@ -173,6 +172,8 @@ i.fa.fa-undo {
   }
 
   .secure-payment-refund-policy {
-    min-height: 0px;
+    min-height: auto;
+    margin-top: 15px;
+    padding: 20px;
   }
 }

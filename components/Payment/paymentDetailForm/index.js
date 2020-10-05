@@ -66,7 +66,7 @@ const PaymentDetailForm = () => {
         <div className="col-md-6">
           <div className="payment-detail-form-banner">
             <img
-              src="../../static/assets/imgs/login-banner.png"
+              src="../../static/assets/imgs/image-screen-2.png"
               alt="banner"
               className="img-fluid"
             />
@@ -120,7 +120,7 @@ const PaymentDetailForm = () => {
           </div>
           <div className="buttons-wrapper">
             <button type="button" className="btn btn-primary total-btn">
-              <i class="fa fa-euro"></i>Your Total £ 6000 / Month
+              Your Total £ 6000 / Month
             </button>
 
             <button type="button" className="btn btn-primary pay-securily-btn">
