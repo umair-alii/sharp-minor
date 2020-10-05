@@ -165,7 +165,6 @@ const MentorInformation = () => {
                     src="../../static/assets/imgs/remuneration.png"
                     alt="banner"
                     className="img-fluid"
-                    width="135"
                   />
                 </div>
                 <div className="remuneration-description">
@@ -178,13 +177,12 @@ const MentorInformation = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="mentor-responsibilties-wrapper">
-                <div className="mentor-responsibilties-icons">
+              <div className="mentor-responsibilities-wrapper">
+                <div className="mentor-responsibilities-icons">
                   <img
                     src="../../static/assets/imgs/home.png"
                     alt="banner"
                     className="img-fluid"
-                    width="101"
                   />
                 </div>
                 <div className="work-from-home-description">
@@ -197,13 +195,12 @@ const MentorInformation = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="mentor-responsibilties-wrapper">
-                <div className="mentor-responsibilties-icons">
+              <div className="mentor-responsibilities-wrapper">
+                <div className="mentor-responsibilities-icons">
                   <img
                     src="../../static/assets/imgs/future.png"
                     alt="banner"
                     className="img-fluid"
-                    width="120"
                   />
                 </div>
                 <div className="build-future-description">
@@ -216,13 +213,12 @@ const MentorInformation = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="mentor-responsibilties-wrapper">
-                <div className="mentor-responsibilties-icons">
+              <div className="mentor-responsibilities-wrapper">
+                <div className="mentor-responsibilities-icons">
                   <img
                     src="../../static/assets/imgs/balance.png"
                     alt="banner"
                     className="img-fluid"
-                    width="135"
                   />
                 </div>
                 <div className="life-balance-description">

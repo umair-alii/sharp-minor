@@ -61,6 +61,10 @@
   border: 1px solid #ced4da;
   border-radius: 4px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  max-height: 50px;
+  align-items: center;
 }
 
 .payment-detail-form input {

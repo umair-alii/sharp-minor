@@ -51,14 +51,6 @@
   color: #ff5768;
 }
 
-.payment-card-icon {
-  background: #fff;
-  padding: 18px;
-  border: 1px solid #ced4da;
-  border-radius: 4px;
-  text-align: center;
-}
-
 .mentor-detail-form input {
   padding: 25px 15px;
   font-size: 12px;
@@ -221,7 +213,8 @@ input[type="file"] {
   border: 1px solid #ff5768 !important;
   padding: 15px 45px;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
+  box-shadow: 0 10px 20px 0 rgba(255, 87, 104, 0.35);
 }
 
 .buttons-wrapper button {

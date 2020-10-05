@@ -82,7 +82,6 @@ const PaymentDetailForm = () => {
                     src="../../static/assets/imgs/visa-card.png"
                     alt="visa"
                     className="img-fluid"
-                    width="50"
                   />
                 </div>
               </div>
@@ -92,7 +91,6 @@ const PaymentDetailForm = () => {
                     src="../../static/assets/imgs/master-card.png"
                     alt="visa"
                     className="img-fluid"
-                    width="70"
                   />
                 </div>
               </div>
@@ -102,7 +100,6 @@ const PaymentDetailForm = () => {
                     src="../../static/assets/imgs/net-banking.png"
                     alt="visa"
                     className="img-fluid"
-                    width="70"
                   />
                 </div>
               </div>
@@ -112,7 +109,6 @@ const PaymentDetailForm = () => {
                     src="../../static/assets/imgs/upi.png"
                     alt="visa"
                     className="img-fluid"
-                    width="60"
                   />
                 </div>
               </div>
