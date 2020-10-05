@@ -148,6 +148,11 @@ input:checked + .slider:before {
 
 /*end*/
 
+select.form-control.custom-select-lg {
+  height: 50px;
+  border: none;
+}
+
 .internet-speed-btn {
   background: #33aa83 !important;
   border: 1px solid #33aa83 !important;
@@ -156,7 +161,7 @@ input:checked + .slider:before {
   font-weight: 500;
 }
 
-i.fa.fa-eye {
+i.fa.fa-wifi {
   font-size: 16px !important;
   margin-right: 5px;
 }
@@ -188,8 +193,15 @@ input[type="file"] {
   text-align: center;
 }
 
-.upload-video {
-  padding-top: 10px;
+.download-cv-template a {
+  color: #00a5e3;
+  font-size: 10px;
+}
+
+i.fa.fa-arrow-down {
+  color: #00a5e3 !important;
+  font-size: 10px !important;
+  padding-left: 5px;
 }
 
 .upload-your-cv span,
@@ -270,6 +282,10 @@ input[type="file"] {
   margin-left: 10px;
 }
 
+select.form-control.custom-select-lg:focus {
+  box-shadow: none;
+}
+
 @media screen and (max-width: 767px) {
   .mentor-responsibilites-wrapper {
     margin-top: 35px;
@@ -277,9 +293,19 @@ input[type="file"] {
 
   .mentor-submit-btn {
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .mentor-detail-form-banner {
     display: none;
+  }
+
+  .remu-img {
+    width: 141px !important;
+  }
+
+  .mentor-responsibilities-wrapper {
+    padding-top: 0px;
+    margin-top: 25px;
   }
 }

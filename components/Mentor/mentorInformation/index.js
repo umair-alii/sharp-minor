@@ -14,12 +14,11 @@ const MentorInformation = () => {
                 <div className="col-md-4">
                   <div className="form-group">
                     <div className="login-inputs">
-                      <i className="fa fa-grav" aria-hidden="true"></i>
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="Mr *"
-                      />
+                      <i className="fa fa-venus" aria-hidden="true"></i>
+                      <select className="form-control custom-select-lg">
+                        <option value="1">Mr *</option>
+                        <option value="2">Mrs *</option>
+                      </select>
                     </div>
                   </div>
                 </div>
@@ -58,14 +57,17 @@ const MentorInformation = () => {
                 </div>
               </div>
               <div className="form-group">
-                <select className="form-control custom-select-lg">
-                  <option data-hidden="true">
-                    Select Highest Education Qualification *
-                  </option>
-                  <option value="one">Bachelor</option>
-                  <option value="two">Master</option>
-                  <option value="three">Phd</option>
-                </select>
+                <div className="login-inputs">
+                  <i className="fa fa-graduation-cap" aria-hidden="true"></i>
+                  <select className="form-control custom-select-lg">
+                    <option data-hidden="true">
+                      Select Highest Education Qualification *
+                    </option>
+                    <option value="one">Bachelor</option>
+                    <option value="two">Master</option>
+                    <option value="three">Phd</option>
+                  </select>
+                </div>
               </div>
 
               <div className="form-group">
@@ -100,14 +102,14 @@ const MentorInformation = () => {
               type="button"
               className="btn btn-primary internet-speed-btn"
             >
-              <i className="fa fa-eye"></i>Do You Visit fast.com & Update
+              <i className="fa fa-wifi"></i>Do You Visit fast.com & Update
               Internet Speed (Mbps) *
             </button>
           </div>
           <div className="row">
             <div className="col-md-6">
               <div className="file-wrapper">
-                <label for="file-cv">
+                <label htmlFor="file-cv">
                   <div className="form-group">
                     <div className="upload-cv">
                       <div className="cv-icon">
@@ -123,6 +125,16 @@ const MentorInformation = () => {
                       />
                       <div className="upload-your-cv">
                         <span>Upload Your CV *</span>
+                        <br />
+                        <span className="download-cv-template">
+                          <a href="">
+                            Download CV Template{" "}
+                            <i
+                              className="fa fa-arrow-down"
+                              aria-hidden="true"
+                            ></i>
+                          </a>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -131,9 +143,12 @@ const MentorInformation = () => {
             </div>
             <div className="col-md-6">
               <div className="file-wrapper">
-                <label for="file-video">
+                <label htmlFor="file-video">
                   <div className="form-group">
                     <div className="upload-video">
+                      <div className="cv-icon">
+                        <i className="fa fa-film" aria-hidden="true"></i>
+                      </div>
                       <input
                         type="file"
                         className="form-control-file"
@@ -164,7 +179,8 @@ const MentorInformation = () => {
                   <img
                     src="../../static/assets/imgs/remuneration.png"
                     alt="banner"
-                    className="img-fluid"
+                    className="img-fluid remu-img"
+                    width="135"
                   />
                 </div>
                 <div className="remuneration-description">
@@ -183,6 +199,7 @@ const MentorInformation = () => {
                     src="../../static/assets/imgs/home.png"
                     alt="banner"
                     className="img-fluid"
+                    width="105"
                   />
                 </div>
                 <div className="work-from-home-description">
@@ -201,6 +218,7 @@ const MentorInformation = () => {
                     src="../../static/assets/imgs/future.png"
                     alt="banner"
                     className="img-fluid"
+                    width="125"
                   />
                 </div>
                 <div className="build-future-description">
@@ -219,6 +237,7 @@ const MentorInformation = () => {
                     src="../../static/assets/imgs/balance.png"
                     alt="banner"
                     className="img-fluid"
+                    width="135"
                   />
                 </div>
                 <div className="life-balance-description">
