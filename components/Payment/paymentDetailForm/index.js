@@ -116,7 +116,8 @@ const PaymentDetailForm = () => {
           </div>
           <div className="buttons-wrapper">
             <button type="button" className="btn btn-primary total-btn">
-              Your Total £ 6000 / Month
+              <i className="fa fa-money" aria-hidden="true"></i>Your Total £
+              6000 / Month
             </button>
 
             <button type="button" className="btn btn-primary pay-securily-btn">

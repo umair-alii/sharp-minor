@@ -94,6 +94,14 @@
   font-size: 12px;
 }
 
+input.form-check-input {
+  margin-left: 0px !important;
+}
+
+label.form-check-label.remember-me {
+  padding-left: 25px;
+}
+
 @media screen and (max-width: 767px) {
   .tutor-login-form {
     padding-top: 50px;

@@ -10,7 +10,7 @@ const TutorLogin = (props) => {
           <form>
             <div className="form-group">
               <div className="login-inputs">
-                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                <i className="fa fa-user-circle" aria-hidden="true"></i>
                 <input
                   type="text"
                   className="form-control"
@@ -20,7 +20,7 @@ const TutorLogin = (props) => {
             </div>
             <div className="form-group">
               <div className="login-inputs">
-                <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                <i className="fa fa-keyboard-o" aria-hidden="true"></i>
                 <input
                   type="password"
                   className="form-control"
@@ -29,7 +29,7 @@ const TutorLogin = (props) => {
               </div>
             </div>
             <div className="remember-forgot-wrapper">
-              <div className="form-check">
+              <div className="form-group">
                 <input className="form-check-input" type="checkbox" value="" />
                 <label
                   className="form-check-label remember-me"

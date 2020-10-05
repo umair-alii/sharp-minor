@@ -166,6 +166,11 @@ i.fa.fa-undo {
   font-weight: 700;
 }
 
+i.fa.fa-money {
+  font-size: 12px !important;
+  padding-right: 10px;
+}
+
 @media screen and (max-width: 767px) {
   .payment-card-icon {
     margin-bottom: 15px;
